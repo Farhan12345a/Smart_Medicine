@@ -1,0 +1,55 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+#menu-image
+{
+    max-width: 200px;
+    margin: auto;
+}
+
+#banner
+{
+    background: rgba(249,249,249, .9);
+    box-shadow: 10px 10px 8px #bdbdbd;
+}
+
+.menu-button
+{
+    min-height: 100px;
+    min-width: 200px;
+}
+
+.scroll-table
+{
+    height: 250px;
+    overflow: scroll;
+}
+
+.menu-button
+{
+    min-height: 100px;
+    min-width: 200px;
+}
+
+.custom-input:focus
+{
+    border-color: #EAAA00;
+    box-shadow: 0px 0px 10px #EAAA00;
+}
+
+/* .table-head
+{
+    position:sticky;
+    top:0;
+} */
