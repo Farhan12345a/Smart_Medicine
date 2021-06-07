@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyf9281b9d61104-staging-24412-authRole",
+      "UnauthRoleArn": "arn:aws:iam::583388005472:role/amplify-amplifyf9281b9d61104-staging-24412-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::583388005472:role/amplify-amplifyf9281b9d61104-staging-24412-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-amplifyf9281b9d61104-staging-24412-deployment",
+      "UnauthRoleName": "amplify-amplifyf9281b9d61104-staging-24412-unauthRole",
+      "StackName": "amplify-amplifyf9281b9d61104-staging-24412",
+      "StackId": "arn:aws:cloudformation:us-east-2:583388005472:stack/amplify-amplifyf9281b9d61104-staging-24412/d16221f0-8c4a-11eb-bca6-0a56fd204b80",
+      "AmplifyAppId": "d3cake98x4ubuo"
+    },
+    "categories": {
+      "auth": {
+        "medicationdispenserwe26992f4": {}
+      }
+    }
+  }
+}

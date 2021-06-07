@@ -1,0 +1,53 @@
+type Medication @model {
+  id: ID!
+  name: String!
+  quantity: String
+  start: String
+  end: String
+  slot1: Boolean
+  slot2: Boolean
+  slot3: Boolean
+  userid: String
+}
+
+
+type CaregiverPatientMatcher @model {
+  patientUsername: String!
+  caregiverUsername: String!
+}
+
+type dispenseTimeSlots @model {
+  id: ID!
+  timeSlot1: Int!
+  timeSlot2: Int!
+  timeSlot3: Int!
+}
+
+type Verification @model {
+	id: ID!
+	title: String!
+	description: String
+	image: String
+	userid: String
+}
+
+type Dispense @model {
+	id: ID!
+	date: String
+	time: String
+	took: Boolean
+	userid: String
+}
+
+type ConsumptionHistoryTable @model {
+  date: AWSDate!
+  userid: String
+}
+
+type TimeSlots @model{
+	id: ID!
+	userid: String
+	slot1: String
+	slot2: String
+	slot3: String
+}
