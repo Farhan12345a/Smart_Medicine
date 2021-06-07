@@ -1,5 +1,0 @@
-{
-  "AppSyncApiName": "medicationdispenserw",
-  "DynamoDBBillingMode": "PAY_PER_REQUEST",
-  "DynamoDBEnableServerSideEncryption": false
-}
